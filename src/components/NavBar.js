@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import './NavBar.css';
 
 class NavBar extends React.Component {
@@ -18,10 +19,10 @@ class NavBar extends React.Component {
       <div>
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
         <div className={this.state.active ? 'topnav responsive' : 'topnav'} id="nav-bar">
-          <a href="#home" className="active">Home</a>
-          <a href="#news">Portfolio</a>
-          <a href="#reflection">Reflection</a>
-          <a href="#" className="icon" onClick={this.responsiveNavBar.bind(this)}>
+          <Link to="/">Home</Link>
+          <Link to='/portfolio'>Portfolio</Link>
+          <a>Reflection</a>
+          <a className="icon" onClick={this.responsiveNavBar.bind(this)}>
             <i className="fa fa-bars"></i>
           </a>
         </div>

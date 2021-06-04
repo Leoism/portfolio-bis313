@@ -12,6 +12,11 @@
   padding: 15px 18px;
 }
 
+.content-container {
+  margin-top: 50px;
+  margin-left: 165px;
+}
+
 * {
   font-family: 'Source Sans Pro';
   font-weight: 500;
