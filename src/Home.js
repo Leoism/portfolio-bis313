@@ -1,25 +1,21 @@
 import logo from './logo.svg';
-import './Home.css';
+import './styles/common.css';
+import './Home.css'
 import NavBar from './components/NavBar';
 
 function Home() {
   return (
-    <div className="Home">
+    <div>
       <NavBar></NavBar>
-      <header className="Home-header">
-        <img src={logo} className="Home-logo" alt="logo" />
-        <p>
-          Edit <code>src/Home.js</code> and save to reload.
-        </p>
-        <a
-          className="Home-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <h2 className="container">Welcome to Leonardo's Portfolio</h2>
+      <img className="images" src="https://www.freepik.com/blog/app/uploads/2016/04/CABECERA-PEQUE-01.jpg" />
+      <div className="container">
+        Welcome to my portfolio for the BIS 313 Course.<br />
+        To view all the challenges that I completed throughout out this course,
+        click on the Portfolio tab on the top of this website. <br />
+        To view the final reflection/challenge, click on the Reflection tab on
+        the top of this website.
+      </div>
     </div>
   );
 }
