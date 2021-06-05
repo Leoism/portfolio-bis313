@@ -1,8 +1,5 @@
 import React from "react";
 import '../components/SideBar';
-import panikMeme from '../images/challenge4_image3.jpg';
-import graveMeme from '../images/challenge4_image1.jpg';
-import boyfriendMeme from '../images/challenge4_image2.jpg';
 import './Challenges.css';
 
 class FakingIt extends React.Component {
