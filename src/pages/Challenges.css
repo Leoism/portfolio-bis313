@@ -22,3 +22,7 @@
   border: none;
   padding: 8px;
 }
+
+strong {
+  font-weight: 700;
+}

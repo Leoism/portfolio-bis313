@@ -1,4 +1,5 @@
 import React from "react";
+import FakingIt from "../pages/FakingIt";
 import MakeSomeMemes from "../pages/MakeSomeMemes";
 import MediaDeprivation from "../pages/MediaDeprivation";
 import './SideBar.css';
@@ -18,6 +19,10 @@ class SideBar extends React.Component {
         break;
       case 'memes':
         this.state.portfolio.setState({ page: <MakeSomeMemes /> })
+        break;
+      case 'faking':
+        this.state.portfolio.setState({ page: <FakingIt /> });
+        break;
     }
   }
 
@@ -26,7 +31,7 @@ class SideBar extends React.Component {
       <div className="sidenav">
         <button onClick={this.renderPage.bind(this, 'media')}>Media Deprivation</button>
         <button onClick={this.renderPage.bind(this, 'memes')}>Make Some Memes</button>
-        <button>Faking It</button>
+        <button onClick={this.renderPage.bind(this, 'faking')}>Faking It</button>
         <button>Coded Bias</button>
         <button>Viral Possibilities</button>
         <button>What do you STAN for?</button>
