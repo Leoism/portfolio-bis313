@@ -63,7 +63,9 @@ class CodedBias extends React.Component {
             <img className="challenge-image horizontal" src={gdrp} />
           </div> : null
         }
-        <strong>Brief Introduction:</strong>
+        <p>
+          <strong>Brief Introduction:</strong>
+        </p>
         <p>
           For this challenge, I took the directions and decided to go a bit more in-depth. What I did was log in to one of my VPN accounts and set my location to each of the countries listed above. Additionally, I also opened a new incognito window for each country, that way no cookies affect the results. So, what you see above is what you would see if you were to go to google and search “covid vaccine” for the first time. I only ran the search query through different search engines for the United States, Brazil, and Germany.
         </p>
