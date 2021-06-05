@@ -7,8 +7,8 @@ import recapDay2 from '../images/challenge1_image5.png';
 import recapDay3 from '../images/challenge1_image1.png';
 import recapDay4 from '../images/challenge1_image6.png';
 import recapDay5 from '../images/challenge1_image4.png';
-class MediaDeprivation extends React.Component {
 
+class MediaDeprivation extends React.Component {
   constructor(props) {
     super(props);
     this.state = {

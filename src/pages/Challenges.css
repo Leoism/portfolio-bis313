@@ -13,6 +13,7 @@
 
 .horizontal {
   width: 100%;
+  max-width: 718px;
 }
 
 .reveal-button {
