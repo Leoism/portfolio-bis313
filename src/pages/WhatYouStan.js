@@ -10,7 +10,8 @@ class WhatDoYouStan extends React.Component {
         <h2>Option #2</h2>
         <figure>
           <img className="challenge-image horizontal"
-            src="https://cdn-wp.thesportsrush.com/2020/12/6cfb1c33-valkyrae.jpg" />
+            src="https://pbs.twimg.com/media/Ero1agLVQAA6jvC?format=jpg&name=medium" />
+          <figcaption>Sourced from: <a href="https://twitter.com/Valkyrae/status/1349449773900722176/photo/1">Valkyrae</a></figcaption>
         </figure>
         <p>
           This one is a bit challenging for me. However, out of the last few challenges available, this seemed the most reasonable for me. I am not a huge participant in online communities. I do consider myself a part of an online community, but I do not participate as much as others do. I have been a part of Valkyrae’s community since 2019. When I first started following her, she had around 300-400k subscribers on Twitter. Now, she has over 3 million subscribers on Youtube and Instagram, over 2 million on Twitter, played with AOC, been in music videos, won Content Creator of the Year in 2020, and is now Co-Owner of 100 Thieves (One of the biggest esports organizations).
