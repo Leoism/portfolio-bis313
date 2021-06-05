@@ -1,9 +1,12 @@
 import React from "react";
+
+import CodedBias from '../pages/CodedBias';
 import FakingIt from "../pages/FakingIt";
 import MakeSomeMemes from "../pages/MakeSomeMemes";
 import MediaDeprivation from "../pages/MediaDeprivation";
-import CodedBias from '../pages/CodedBias';
 import ViralPossibilities from '../pages/ViralPossibilities';
+import WhatDoYouStan from '../pages/WhatYouStan';
+
 import './SideBar.css';
 
 class SideBar extends React.Component {
@@ -31,6 +34,8 @@ class SideBar extends React.Component {
       case 'viral':
         this.state.portfolio.setState({ page: <ViralPossibilities /> });
         break;
+      case 'stan':
+        this.state.portfolio.setState({ page: <WhatDoYouStan /> });
     }
   }
 
@@ -42,7 +47,7 @@ class SideBar extends React.Component {
         <button onClick={this.renderPage.bind(this, 'faking')}>Faking It</button>
         <button onClick={this.renderPage.bind(this, 'bias')}>Coded Bias</button>
         <button onClick={this.renderPage.bind(this, 'viral')}>Viral Possibilities</button>
-        <button>What do you STAN for?</button>
+        <button onClick={this.renderPage.bind(this, 'stan')}>What Do You STAN For?</button>
       </div>
     );
   }
