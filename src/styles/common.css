@@ -3,11 +3,13 @@
 .images {
   width: 80%;
   margin: auto;
-  display:  block;
+  display: block;
+  max-width: 750px;
 }
 
 .container {
   width: 80%;
+  max-width: 800px;
   margin: auto;
   padding: 15px 18px;
 }

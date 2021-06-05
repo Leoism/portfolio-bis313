@@ -22,6 +22,7 @@ class NavBar extends React.Component {
           <Link to="/">Home</Link>
           <Link to='/portfolio'>Portfolio</Link>
           <a>Reflection</a>
+          <a href="https://github.com/Leoism/portfolio-bis313">GitHub</a>
           <a className="icon" onClick={this.responsiveNavBar.bind(this)}>
             <i className="fa fa-bars"></i>
           </a>
