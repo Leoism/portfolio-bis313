@@ -4,6 +4,7 @@ import CodedBias from '../pages/CodedBias';
 import FakingIt from "../pages/FakingIt";
 import MakeSomeMemes from "../pages/MakeSomeMemes";
 import MediaDeprivation from "../pages/MediaDeprivation";
+import MeetMeat from "../pages/MeetMeat";
 import ViralPossibilities from '../pages/ViralPossibilities';
 import WhatDoYouStan from '../pages/WhatYouStan';
 
@@ -19,8 +20,8 @@ class SideBar extends React.Component {
 
   renderPage(page) {
     switch (page) {
-      case 'media':
-        this.state.portfolio.setState({ page: <MediaDeprivation /> })
+      case 'meat':
+        this.state.portfolio.setState({ page: <MeetMeat /> })
         break;
       case 'memes':
         this.state.portfolio.setState({ page: <MakeSomeMemes /> })
@@ -42,12 +43,12 @@ class SideBar extends React.Component {
   render() {
     return (
       <div className="sidenav">
-        <button onClick={this.renderPage.bind(this, 'media')}>Media Deprivation</button>
+        <button onClick={this.renderPage.bind(this, 'meat')}>Meet/Meat</button>
         <button onClick={this.renderPage.bind(this, 'memes')}>Make Some Memes</button>
         <button onClick={this.renderPage.bind(this, 'faking')}>Faking It</button>
         <button onClick={this.renderPage.bind(this, 'bias')}>Coded Bias</button>
-        <button onClick={this.renderPage.bind(this, 'viral')}>Viral Possibilities</button>
         <button onClick={this.renderPage.bind(this, 'stan')}>What Do You STAN For?</button>
+        <button onClick={this.renderPage.bind(this, 'viral')}>Viral Possibilities</button>
       </div>
     );
   }
