@@ -1,0 +1,23 @@
+.challenge-page {
+  font-size: 18px;
+  padding: 4%;
+  margin-top: 50px;
+  text-align: justify;
+  line-height: 1.75rem;
+}
+
+.challenge-image {
+  padding: 2% 0;
+  display: block;
+}
+
+.horizontal {
+  width: 100%;
+}
+
+.reveal-button {
+  display: block;
+  background-color: #eee;
+  border: none;
+  padding: 8px;
+}
