@@ -42,8 +42,7 @@ class ViralPossibilities extends React.Component {
         <p>
           Finally, all you have to do is, again, parse through the information. The vaccination site normally asks for your name, birth date, and other identifiable information. Do not worry, the website has security protocols in place to protect your information, hopefully. Once you’ve entered all your information you are all set to go to your appointment. And remember, if you ever need to find other information, hop “on the Google” and ride away.
         </p>
-
-      </div >
+      </div>
     );
   }
 }

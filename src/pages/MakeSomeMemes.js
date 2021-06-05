@@ -38,8 +38,7 @@ class MakeSomeMemes extends React.Component {
         <button class="reveal-button" onClick={this.revealImage.bind(this, 'boyfriend')}>Click to Reveal Image</button>
         {this.state.boyfriend ? <img class="challenge-image horizontal" src={boyfriendMeme} /> : null}
         I chose this image because I felt it related to what Shifman called reaction photoshop and stock character macros. Although this is clearly not photoshopped, I think the hypersignification that takes place is similar. This image highlights what is likely a constructed nature, similar to the ‘Situation Room’ meme that Shifman talks about. Without knowing the background of this image, the line between truth and fiction is blurred. This image also conveys the concepts that Shifman talked about in stock character macros. It constructs the stereotype that the boyfriend is always looking for the next girl. The portrayal of the image takes it to an extreme with the man looking at another woman without thinking about his current girlfriend. I chose the text because it is something that relates to me and I feel that there could potentially be others that also share the same feelings as me. Memes that use this template usually revolve around one thing being better than another. My meme partakes in this repetition and implies that doing nothing is better than doing homework. The impact of this meme is minimal. It does not capture a historical moment like the ‘Situation Room’ nor capture any contemporary symbolism. This image simply conveys the feelings of some guy in college.
-
-      </div >
+      </div>
     );
   }
 }

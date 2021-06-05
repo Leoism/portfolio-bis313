@@ -70,8 +70,7 @@ class MediaDeprivation extends React.Component {
 
         <h2>Summary/Reflection</h2>
         I started this challenge on Thursday, April 1. On the first day, I noticed a huge lack of communication between the world and me. I was no longer up to date on what was happening in the world. The first day was the toughest as I wasn’t sure to handle this challenge. Instead of resorting to online media, I spent my time playing video games. Throughout this entire challenge, that is where most of my time went into. I could have been doing productive things like homework, but I chose not to do that. I noticed that muscle memory kicked in a lot during this challenge. I would open my phone and my hand would just try to open some social media app. The world was now 100m². I didn’t know/care what was happening somewhere else. Emotionally, I felt the same as I always do for the most part. Sometimes, I would get more anxious or stressed than usual but it could have also been due to other triggers and not this challenge. When I finally ended the challenge on Tuesday April 6, I did it because I need a distraction. I checked on some of my favorite content creators, and seeing that they had new content out, I felt uplifted and better. Media deprivation showed how easily you can stop knowing what’s happening in the world. I was limited to very little area for me to participate in. I only talked with family and some of my friends. I no longer had the ability to write something and then have random people online see it. Was this challenge eye opening to me? Yes, in some ways it was. I did a similar thing some years back. However, at the time there was not a pandemic and I was actually able to see people in-person. This time, I could not see other people, or go out to places as easily as I could back then. This challenge showed me how easy it is to isolate yourself.
-
-      </div >
+      </div>
     );
   }
 }

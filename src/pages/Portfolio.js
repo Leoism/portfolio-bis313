@@ -18,7 +18,7 @@ class Portfolio extends React.Component {
         <div>
           {this.state.page}
         </div>
-      </div >
+      </div>
     );
   }
 }
