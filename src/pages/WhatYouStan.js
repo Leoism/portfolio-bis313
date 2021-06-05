@@ -9,7 +9,9 @@ class WhatDoYouStan extends React.Component {
         <h1>Challenge 8: What Do You STAN For?</h1>
         <h2>Option #2</h2>
         <figure>
-          <img className="challenge-image horizontal"
+          <img alt="Image of the Content Creator of the year in 2020, co-owner of
+                     100 Thieves, aka Valkyrae."
+            className="challenge-image horizontal"
             src="https://pbs.twimg.com/media/Ero1agLVQAA6jvC?format=jpg&name=medium" />
           <figcaption>Sourced from: <a href="https://twitter.com/Valkyrae/status/1349449773900722176/photo/1">Valkyrae</a></figcaption>
         </figure>

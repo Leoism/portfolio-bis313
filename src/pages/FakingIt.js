@@ -25,7 +25,8 @@ class FakingIt extends React.Component {
         <strong>Source:</strong> <a href="https://archive.is/97SFH">https://archive.is/97SFH</a><br />
         <strong>Verdict:</strong> Fake News! <br />
         <figure>
-          <img src="https://media.istockphoto.com/vectors/fake-news-ink-stamp-vector-id948955750?k=6&m=948955750&s=612x612&w=0&h=ailLurzXzQMhT40QYw9yKJ6ADPSlWgkNq2Gje7okSoo=" />
+          <img alt="Fake News"
+            src="https://media.istockphoto.com/vectors/fake-news-ink-stamp-vector-id948955750?k=6&m=948955750&s=612x612&w=0&h=ailLurzXzQMhT40QYw9yKJ6ADPSlWgkNq2Gje7okSoo=" />
           <figcaption>Sourced from: <a href="https://www.istockphoto.com/vector/fake-news-ink-stamp-gm948955750-259059875">iStock</a></figcaption>
         </figure>
         <hr />

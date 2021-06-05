@@ -37,30 +37,44 @@ class CodedBias extends React.Component {
         {this.state.show ?
           <div>
             <span class="image-title">United States Google:</span>
-            <img className="challenge-image horizontal" src={us_googl} />
-            <span class="image-title">United States DuckDuckGo:</span>
-            <img className="challenge-image horizontal" src={us_ddgo} />
-            <span class="image-title">United States Yandex:</span>
-            <img className="challenge-image horizontal" src={us_yandex} />
-            <span class="image-title">Germany Google:</span>
-            <img className="challenge-image horizontal" src={de_googl} />
-            <img className="challenge-image horizontal" src={de_googl2} />
-            <span class="image-title">Japan Google:</span>
-            <img className="challenge-image horizontal" src={jp_googl} />
-            <img className="challenge-image horizontal" src={jp_googl2} />
-            <span class="image-title">Mexico Google:</span>
-            <img className="challenge-image horizontal" src={mx_googl} />
-            <span class="image-title">Brazil Google:</span>
-            <img className="challenge-image horizontal" src={br_googl} />
-            <img className="challenge-image horizontal" src={br_googl2} />
-            <span class="image-title">Brazil DuckDuckGo:</span>
-            <img className="challenge-image horizontal" src={br_ddgo} />
-            <span class="image-title">China Google:</span>
-            <img className="challenge-image horizontal" src={ch_google} />
-            <span class="image-title">China from US Google:</span>
-            <img className="challenge-image horizontal" src={us_ch_googl} />
-            <span class="image-title">GDRP notice in EU countries</span>
-            <img className="challenge-image horizontal" src={gdrp} />
+            <img alt="Google search results for 'covid vaccine' under USA VPN"
+              className="challenge-image horizontal" src={us_googl} />
+            <span className="image-title">United States DuckDuckGo:</span>
+            <img alt="DuckDuckGo search results for 'covid vaccine' under USA VPN"
+              className="challenge-image horizontal" src={us_ddgo} />
+            <span className="image-title">United States Yandex:</span>
+            <img alt="Yandex search results for 'covid vaccine' under USA VPN"
+              className="challenge-image horizontal" src={us_yandex} />
+            <span className="image-title">Germany Google:</span>
+            <img alt="Google search results for 'covid vaccine' under Germany VPN"
+              className="challenge-image horizontal" src={de_googl} />
+            <img alt="Google search results for 'covid vaccine' under Germany VPN"
+              className="challenge-image horizontal" src={de_googl2} />
+            <span className="image-title">Japan Google:</span>
+            <img alt="Google search results for 'covid vaccine' under Japan VPN"
+              className="challenge-image horizontal" src={jp_googl} />
+            <img alt="Google search results for 'covid vaccine' under Japan VPN"
+              className="challenge-image horizontal" src={jp_googl2} />
+            <span className="image-title">Mexico Google:</span>
+            <img alt="Google search results for 'covid vaccine' under Mexico VPN"
+              className="challenge-image horizontal" src={mx_googl} />
+            <span className="image-title">Brazil Google:</span>
+            <img alt="Google search results for 'covid vaccine' under Brazil VPN"
+              className="challenge-image horizontal" src={br_googl} />
+            <img alt="Google search results for 'covid vaccine' under Brazil VPN"
+              className="challenge-image horizontal" src={br_googl2} />
+            <span className="image-title">Brazil DuckDuckGo:</span>
+            <img alt="DuckDuckGo search results for 'covid vaccine' under Brazil VPN"
+              className="challenge-image horizontal" src={br_ddgo} />
+            <span className="image-title">China Google:</span>
+            <img alt="Google search results for 'covid vaccine' under China VPN"
+              className="challenge-image horizontal" src={ch_google} />
+            <span className="image-title">China from US Google:</span>
+            <img alt="Google search results for 'covid vaccine china' under US VPN"
+              className="challenge-image horizontal" src={us_ch_googl} />
+            <span className="image-title">GDRP notice in EU countries</span>
+            <img alt="GDRP notice"
+              className="challenge-image horizontal" src={gdrp} />
           </div> : null
         }
         <p>

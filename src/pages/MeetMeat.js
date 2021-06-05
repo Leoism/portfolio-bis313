@@ -4,10 +4,11 @@ import './Challenges.css';
 class MeetMeat extends React.Component {
   render() {
     return (
-      <div class="challenge-page">
+      <div className="challenge-page">
         <h1>Challenge 2: Meet/Meat</h1>
         <div>This is completely different from my original submission.</div>
-        <img src="https://www.the-waves.org/wp-content/uploads/2020/10/smartphones.png" />
+        <img alt="group of people on their smartphones"
+          src="https://www.the-waves.org/wp-content/uploads/2020/10/smartphones.png" />
         <p>
           Throughout the course of the pandemic, I saw growth in my dependency on the internet. Online classes, virtual internships, and online friendships. Prior to the pandemic, I did not heavily rely on the internet. I rarely spent more than an hour on Twitter, Reddit, or YouTube. Now, I log around 8-10 hours a day on my phone, largely on social media platforms.
         </p>
