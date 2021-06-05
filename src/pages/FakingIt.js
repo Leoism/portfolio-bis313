@@ -24,6 +24,10 @@ class FakingIt extends React.Component {
         <strong>Claim:</strong> <em>Two-year-old died from Pfizers COVID-19 Vaccine.</em><br />
         <strong>Source:</strong> <a href="https://archive.is/97SFH">https://archive.is/97SFH</a><br />
         <strong>Verdict:</strong> Fake News! <br />
+        <figure>
+          <img src="https://media.istockphoto.com/vectors/fake-news-ink-stamp-vector-id948955750?k=6&m=948955750&s=612x612&w=0&h=ailLurzXzQMhT40QYw9yKJ6ADPSlWgkNq2Gje7okSoo=" />
+          <figcaption>Sourced from: <a href="https://www.istockphoto.com/vector/fake-news-ink-stamp-gm948955750-259059875">iStock</a></figcaption>
+        </figure>
         <hr />
         <p>
           This claim has been proven false. At the time the post was uploaded, the only support for the claim was a report found on the Vaccine Adverse Events Reporting System. This website collects voluntary data where anyone can submit a report without any evidence; however, doing so is a crime. After the CDC investigated the report, they found no autopsy or medical records to support the report that was filed.

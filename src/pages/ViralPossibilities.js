@@ -21,6 +21,10 @@ class ViralPossibilities extends React.Component {
     return (
       <div className="challenge-page">
         <h1>Challenge 9: Viral Possibilities</h1>
+        <figure>
+          <img src="https://lh3.googleusercontent.com/proxy/f0JXdSzYctgFnooj4_csaCElO7wYIHOdtDc961vcuu3qPPPWTYtqr58vQU0DPbtDkJk_N1FTyE-YFxW1eb6rUJsO" />
+          <figcaption>Sourced from: <a href="http://clipart-library.com/clipart/2005737.htm">Clipart Library</a></figcaption>
+        </figure>
         <p>
           <strong>Person:</strong> <em>Somebody living in the very early 1920s or whenever the assembly line was invented to make affordable cars.</em>
         </p>
