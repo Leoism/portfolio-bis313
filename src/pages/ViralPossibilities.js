@@ -22,7 +22,8 @@ class ViralPossibilities extends React.Component {
       <div className="challenge-page">
         <h1>Challenge 9: Viral Possibilities</h1>
         <figure>
-          <img alt="Image of a time machine"
+          <img className="challenge-image horizontal"
+            alt="Image of a time machine"
             src="https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/traveling-through-the-door-of-the-future-with-the-royalty-free-image-1612975514.?resize=980:*" />
           <figcaption>Sourced from: <a href="https://www.popularmechanics.com/science/a35470439/is-china-building-a-time-machine/">Popular Mechanics</a></figcaption>
         </figure>
