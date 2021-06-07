@@ -1,5 +1,5 @@
-import React from "react";
-import { Link } from "react-router-dom";
+import React from 'react';
+import { Link } from 'react-router-dom';
 import './NavBar.css';
 
 class NavBar extends React.Component {
@@ -17,14 +17,14 @@ class NavBar extends React.Component {
   render() {
     return (
       <div>
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
-        <div className={this.state.active ? 'topnav responsive' : 'topnav'} id="nav-bar">
-          <Link to="/">Home</Link>
+        <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css' />
+        <div className={this.state.active ? 'topnav responsive' : 'topnav'} id='nav-bar'>
+          <Link to='/'>Home</Link>
           <Link to='/portfolio'>Portfolio</Link>
-          <a>Reflection</a>
-          <a href="https://github.com/Leoism/portfolio-bis313">GitHub</a>
-          <a className="icon" onClick={this.responsiveNavBar.bind(this)}>
-            <i className="fa fa-bars"></i>
+          <Link to='/reflection'>Reflection</Link>
+          <a href='https://github.com/Leoism/portfolio-bis313'>GitHub</a>
+          <a className='icon' onClick={this.responsiveNavBar.bind(this)}>
+            <i className='fa fa-bars'></i>
           </a>
         </div>
       </div >

@@ -3,7 +3,6 @@ import React from "react";
 import CodedBias from '../pages/CodedBias';
 import FakingIt from "../pages/FakingIt";
 import MakeSomeMemes from "../pages/MakeSomeMemes";
-import MediaDeprivation from "../pages/MediaDeprivation";
 import MeetMeat from "../pages/MeetMeat";
 import ViralPossibilities from '../pages/ViralPossibilities';
 import WhatDoYouStan from '../pages/WhatYouStan';
@@ -19,6 +18,7 @@ class SideBar extends React.Component {
   }
 
   renderPage(page) {
+    window.scrollTo(0, 0);
     switch (page) {
       case 'meat':
         this.state.portfolio.setState({ page: <MeetMeat /> })
